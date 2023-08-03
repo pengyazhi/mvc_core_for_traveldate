@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\css\my_css\**" />
+    <Compile Remove="wwwroot\lib\icon\**" />
+    <Content Remove="wwwroot\css\my_css\**" />
+    <Content Remove="wwwroot\lib\icon\**" />
+    <EmbeddedResource Remove="wwwroot\css\my_css\**" />
+    <EmbeddedResource Remove="wwwroot\lib\icon\**" />
+    <None Remove="wwwroot\css\my_css\**" />
+    <None Remove="wwwroot\lib\icon\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\icon\arrow_bottom_down_icon.png" />
+    <None Include="wwwroot\icon\arrow_top_up_icon.png" />
+    <None Include="wwwroot\icon\checkbox.png" />
+    <None Include="wwwroot\icon\icons8-button-48.png" />
+    <None Include="wwwroot\icon\icons8-calendar-32.png" />
+    <None Include="wwwroot\icon\icons8-calendar.gif" />
+    <None Include="wwwroot\icon\icons8-checkbox-32.png" />
+    <None Include="wwwroot\icon\icons8-person-100.png" />
+    <None Include="wwwroot\icon\icons8-person-female-100.png" />
+    <None Include="wwwroot\icon\icons8-search-static-32.png" />
+    <None Include="wwwroot\icon\icons8-search.gif" />
+    <None Include="wwwroot\icon\icons8-unchecked-32.png" />
+    <None Include="wwwroot\icon\icon_for_search_container.png" />
+    <None Include="wwwroot\icon\search.png" />
+    <None Include="wwwroot\icon\uncheckbox.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+</Project>

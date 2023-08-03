@@ -1,0 +1,701 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\prjTravelDate_core.bundle.scp.css",
+      "PackagePath": "staticwebassets\\prjTravelDate_core.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\PagedList.css",
+      "PackagePath": "staticwebassets\\Content\\PagedList.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\Site.css",
+      "PackagePath": "staticwebassets\\Content\\Site.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Content\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery-3.4.1.intellisense.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.intellisense.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery-3.4.1.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery-3.4.1.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.min.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery-3.4.1.slim.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery-3.4.1.slim.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery-3.4.1.slim.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery.validate-vsdoc.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate-vsdoc.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\Scripts\\modernizr-2.8.3.js",
+      "PackagePath": "staticwebassets\\Scripts\\modernizr-2.8.3.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\css\\calendar-style.css",
+      "PackagePath": "staticwebassets\\css\\calendar-style.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\css\\multiRange.css",
+      "PackagePath": "staticwebassets\\css\\multiRange.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\css\\search.css",
+      "PackagePath": "staticwebassets\\css\\search.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\arrow_bottom_down_icon.png",
+      "PackagePath": "staticwebassets\\icon\\arrow_bottom_down_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\arrow_top_up_icon.png",
+      "PackagePath": "staticwebassets\\icon\\arrow_top_up_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\checkbox.png",
+      "PackagePath": "staticwebassets\\icon\\checkbox.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icon_for_search_container.png",
+      "PackagePath": "staticwebassets\\icon\\icon_for_search_container.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-button-48.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-button-48.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-calendar-32.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-calendar-32.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-calendar.gif",
+      "PackagePath": "staticwebassets\\icon\\icons8-calendar.gif"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-checkbox-32.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-checkbox-32.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-pencil-32.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-pencil-32.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-pencil.gif",
+      "PackagePath": "staticwebassets\\icon\\icons8-pencil.gif"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-person-100.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-person-100.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-person-female-100.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-person-female-100.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-search-static-32.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-search-static-32.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-search.gif",
+      "PackagePath": "staticwebassets\\icon\\icons8-search.gif"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\icons8-unchecked-32.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-unchecked-32.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\search.png",
+      "PackagePath": "staticwebassets\\icon\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\icon\\uncheckbox.png",
+      "PackagePath": "staticwebassets\\icon\\uncheckbox.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\images\\top_photo_01.png",
+      "PackagePath": "staticwebassets\\images\\top_photo_01.png"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\images\\top_photo_02.jpg",
+      "PackagePath": "staticwebassets\\images\\top_photo_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\calender-main.js",
+      "PackagePath": "staticwebassets\\js\\calender-main.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery-3.4.1.intellisense.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.intellisense.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery-3.4.1.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery-3.4.1.min.map",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery-3.4.1.slim.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery-3.4.1.slim.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery-3.4.1.slim.min.map",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery.validate-vsdoc.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate-vsdoc.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\modernizr-2.8.3.js",
+      "PackagePath": "staticwebassets\\js\\modernizr-2.8.3.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\mutiRange.js",
+      "PackagePath": "staticwebassets\\js\\mutiRange.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\search_jq.js",
+      "PackagePath": "staticwebassets\\js\\search_jq.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.prjTravelDate_core.props",
+      "PackagePath": "build\\prjTravelDate_core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.prjTravelDate_core.props",
+      "PackagePath": "buildMultiTargeting\\prjTravelDate_core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.prjTravelDate_core.props",
+      "PackagePath": "buildTransitive\\prjTravelDate_core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.prjTravelDate_core.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
