@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = prjTravelDate_core
 build_property.RootNamespace = prjTravelDate_core
-build_property.ProjectDir = C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\
+build_property.ProjectDir = C:\Users\User\Desktop\Repos\traveldate_mvc_core\mvc_core_for_traveldate\prjTravelDate_core\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Repos\traveldate_mvc_core\mvc_core_for_traveldate\prjTravelDate_core
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Forum/ArticleView.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Forum/ArticleView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cQXJ0aWNsZVZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Forum/Create.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Forum/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Forum/ForumList.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Forum/ForumList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cRm9ydW1MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Home/Privacy.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Search/SearchList.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Search/SearchList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Shared/Error.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazhi/Desktop/repos/mvc_core/slnTravelDate_core/prjTravelDate_core/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/Repos/traveldate_mvc_core/mvc_core_for_traveldate/prjTravelDate_core/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q54v9s26fx

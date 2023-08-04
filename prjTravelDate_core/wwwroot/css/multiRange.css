@@ -8,6 +8,7 @@
 
     .range-slider input {
         pointer-events: none;
+       /* position: absolute;*/
         position: absolute;
         overflow: hidden;
         left: 0;
@@ -58,7 +59,7 @@
 .output {
     position: absolute;
     border: 1px solid #999;
-    width: 40px;
+    width: auto;
     height: 30px;
     text-align: center;
     color: #999;
@@ -75,7 +76,7 @@
     }
 
 .range-container {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -159,5 +160,5 @@ input[type=range] {
 }
 
 .incl-range {
-    background: gold;
+    background: #88A8BC;
 }

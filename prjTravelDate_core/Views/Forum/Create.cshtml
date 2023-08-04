@@ -4,19 +4,19 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
 
-<h4>ForumList</h4>
-<hr />
-<div class="row justify-content-center">
-    <div class="col-9">
+<div class="row justify-content-center bg-white rounded-3">
+    <h2 class="pl-2 pr-2 my-text-primary fw-bolder">發表文章</h2>
+    <div class="col-9 ">
+        
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="form-group fs-5">
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
+            <p class="fs-5">選擇商品與日期</p>
             <div class="d-flex">
                 <div class="form-group col-5 pl-0">
                     <select class="form-select form-select-md mb-3" aria-label="Large select example">
@@ -27,7 +27,7 @@
                     </select>
                     <span asp-validation-for="Title" class="text-danger"></span>
                 </div>
-                <div class="form-group col-4">
+                <div class="form-group col-4 ">
                     <select class="form-select form-select-md mb-3" aria-label="Large select example">
                         <option selected>請選擇日期</option>
                         <option value="1">One</option>
@@ -41,40 +41,36 @@
                 </div>
             </div>
             
-            <div class="form-group col-5 pl-0">
+            <div class="form-group col-5 pl-0 fs-5">
                 <label asp-for="DueDate" class="control-label">截團日期</label>
                 <input asp-for="DueDate" class="form-control" />
                 <span asp-validation-for="DueDate" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group fs-5">
                 <label asp-for="Content" class="control-label"></label>
-                <input asp-for="Content" class="form-control" />
+                <textarea asp-for="Content" class="form-control content-input"></textarea>
                 <span asp-validation-for="Content" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="ReleaseDatetime" class="control-label"></label>
-                <input asp-for="ReleaseDatetime" class="form-control" />
-                <span asp-validation-for="ReleaseDatetime" class="text-danger"></span>
+            <div class="form-group d-flex justify-content-between">
+                <div class="insert-photo-container">
+                    <img class="insert-photo-gif" src="~/icon/icons8-photo.gif" />
+                    <img class="insert-photo-static" src="~/icon/icons8-photo-64.png" />
+                </div>
+                <div class="d-flex align-items-center">
+                    <input type="submit" value="捨棄" class="btn btn-secondary h-75 ml-1" />
+                    <input type="submit" value="儲存草稿" class="btn btn-secondary h-75 ml-1" />
+                    <input id="payment-area" type="submit" value="下一步" class="btn btn-secondary h-75 ml-1" />
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Likes" class="control-label"></label>
-                <input asp-for="Likes" class="form-control" />
-                <span asp-validation-for="Likes" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Watches" class="control-label"></label>
-                <input asp-for="Watches" class="form-control" />
-                <span asp-validation-for="Watches" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="border border-black">
+                付款區
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="ForumList" class="fs-5 my-text-primary fw-bolder">返回文章列表</a>
 </div>
 
 @section Scripts {
