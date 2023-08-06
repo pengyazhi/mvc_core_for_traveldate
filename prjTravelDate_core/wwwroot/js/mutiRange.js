@@ -3,13 +3,15 @@
 	outputOne = document.querySelector('.outputOne'),
 	outputTwo = document.querySelector('.outputTwo'),
 	inclRange = document.querySelector('.incl-range'),
+ numberFormatter = new Intl.NumberFormat('zh-TW'),
 	updateView = function () {
-		if (this.getAttribute('name') === 'rangeOne') {
-			outputOne.innerHTML = this.value;
+		var formattedValue = numberFormatter.format(this.value);
+	 if (this.getAttribute('name') === 'rangeOne') {
+		 outputOne.innerHTML = formattedValue;
 			outputOne.style.left = this.value / this.getAttribute('max') * 100 + '%';
 		} else {
 			outputTwo.style.left = this.value / this.getAttribute('max') * 100 + '%';
-			outputTwo.innerHTML = this.value
+		 outputTwo.innerHTML = formattedValue;
 		}
 		if (parseInt(rangeOne.value) > parseInt(rangeTwo.value)) {
 			inclRange.style.width = (rangeOne.value - rangeTwo.value) / this.getAttribute('max') * 100 + '%';

@@ -640,6 +640,128 @@
           }
         }
       },
+      "Microsoft.AspNet.Mvc/5.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.9, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.9, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json.Bson": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.9"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.HelpPage/5.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "[5.2.9, 5.3.0)",
+          "Microsoft.AspNet.Razor": "[3.2.9, 3.3.0)",
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.9, 5.3.0)"
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.9, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.9, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "related": ".Deployment.xml;.Razor.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "related": ".Deployment.xml;.Razor.xml;.xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/7.0.9": {
         "type": "package",
         "dependencies": {
@@ -1904,6 +2026,15 @@
           }
         }
       },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2032,6 +2163,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
             "related": ".xml"
           }
         }
@@ -2179,6 +2327,35 @@
         "runtime": {
           "lib/netstandard2.0/NuGet.Versioning.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "PagedList/1.17.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/PagedList.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/PagedList.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "PagedList.Mvc/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "PagedList": "1.17.0"
+        },
+        "compile": {
+          "lib/net40/PagedList.Mvc.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net40/PagedList.Mvc.dll": {
+            "related": ".XML"
           }
         }
       },
@@ -4705,6 +4882,173 @@
         "logo.png"
       ]
     },
+    "Microsoft.AspNet.Mvc/5.2.9": {
+      "sha512": "bcekKshCAh7kTWSMZPavQStSZQF/QmjEjO2gVWGITEd0/t5eRlb+ZLDE+az2qY1bZ8L6Hz0OCNeS0uzXtJcK5w==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Mvc.dll",
+        "lib/net45/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.2.9": {
+      "sha512": "QOJEnEw3xp+t5lMvYR5nGCF4CfZpHqr2p8uZOBEgDZoB6r2txtSj6581YNr+/dOHjI3YRlo1QAKGQoSohbQ/KA==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.2.9.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.9": {
+      "sha512": "cuVhPjjNMSEFpKXweMNBbsG4RUFuuZpFBm8tSyw309U9JEjcnbB6n3EPb4xwgcy9bJ38ctIbv5G8zXUBhlrPWw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.9": {
+      "sha512": "9C0/gBUeMBjorRFSmR5Z2j5wznf9BP5SddN+OZE7X0BpXgivBZTZ42d0h8tIjJzSLHYVCU4HZBf51+cidCY4fQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.HelpPage/5.2.9": {
+      "sha512": "6VuZcrcrJzK1/H6QvSERd7qaFk92J7dgxgGEmKjN+69NHzDXH1NftVxmtC/XfWf3N7UtUH3MZ5t/NlSX1utglw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.helppage/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Areas/HelpPage/ApiDescriptionExtensions.cs.pp",
+        "Content/Areas/HelpPage/App_Start/HelpPageConfig.cs.pp",
+        "Content/Areas/HelpPage/Controllers/HelpController.cs.pp",
+        "Content/Areas/HelpPage/HelpPage.css.pp",
+        "Content/Areas/HelpPage/HelpPageAreaRegistration.cs.pp",
+        "Content/Areas/HelpPage/HelpPageConfigurationExtensions.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/CollectionModelDescription.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/ComplexTypeModelDescription.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/DictionaryModelDescription.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/EnumTypeModelDescription.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/EnumValueDescription.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/IModelDocumentationProvider.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/KeyValuePairModelDescription.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/ModelDescription.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/ModelNameAttribute.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/ModelNameHelper.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/ParameterAnnotation.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/ParameterDescription.cs.pp",
+        "Content/Areas/HelpPage/ModelDescriptions/SimpleTypeModelDescription.cs.pp",
+        "Content/Areas/HelpPage/Models/HelpPageApiModel.cs.pp",
+        "Content/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs.pp",
+        "Content/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs.pp",
+        "Content/Areas/HelpPage/SampleGeneration/ImageSample.cs.pp",
+        "Content/Areas/HelpPage/SampleGeneration/InvalidSample.cs.pp",
+        "Content/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs.pp",
+        "Content/Areas/HelpPage/SampleGeneration/SampleDirection.cs.pp",
+        "Content/Areas/HelpPage/SampleGeneration/TextSample.cs.pp",
+        "Content/Areas/HelpPage/Views/Help/Api.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/Index.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Help/ResourceModel.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Shared/_Layout.cshtml.pp",
+        "Content/Areas/HelpPage/Views/Web.config",
+        "Content/Areas/HelpPage/Views/_ViewStart.cshtml.pp",
+        "Content/Areas/HelpPage/XmlDocumentationProvider.cs.pp",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "microsoft.aspnet.webapi.helppage.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.webapi.helppage.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost/5.2.9": {
+      "sha512": "+mQWEe0/mWdEccKszPI7QOLduYH0ZSl1AjdRXLlM6jKrhS3LnLMBg2WuLEIlQcCS7GCs4GU5LlhycArgg3j84g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.webhost/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Http.WebHost.dll",
+        "lib/net45/System.Web.Http.WebHost.xml",
+        "microsoft.aspnet.webapi.webhost.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.webapi.webhost.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/3.2.9": {
+      "sha512": "yByb721lwv8YFsx1oKA5CLKXa89XVbVMkPafS4bg/bPelBEgChq/coFBQEkA4kwcabG7AR56w3vapnoZUfr2Cw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/3.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Helpers.dll",
+        "lib/net45/System.Web.Helpers.xml",
+        "lib/net45/System.Web.WebPages.Deployment.dll",
+        "lib/net45/System.Web.WebPages.Deployment.xml",
+        "lib/net45/System.Web.WebPages.Razor.dll",
+        "lib/net45/System.Web.WebPages.Razor.xml",
+        "lib/net45/System.Web.WebPages.dll",
+        "lib/net45/System.Web.WebPages.xml",
+        "microsoft.aspnet.webpages.3.2.9.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/7.0.9": {
       "sha512": "VuHqSCiB45Kf5s0wPQREpIgZZMxJJM7efFwLf2vAS/qTGDq04g5C0jX6oA3P66l/T493dokhtgoljEDoo5ZnEQ==",
       "type": "package",
@@ -6841,6 +7185,18 @@
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
     },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    },
     "Microsoft.Win32.Primitives/4.3.0": {
       "sha512": "9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "type": "package",
@@ -7005,6 +7361,21 @@
         "packageIcon.png"
       ]
     },
+    "Newtonsoft.Json.Bson/1.0.1": {
+      "sha512": "5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
+      "type": "package",
+      "path": "newtonsoft.json.bson/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Newtonsoft.Json.Bson.dll",
+        "lib/net45/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
+        "newtonsoft.json.bson.1.0.1.nupkg.sha512",
+        "newtonsoft.json.bson.nuspec"
+      ]
+    },
     "NuGet.Common/6.3.1": {
       "sha512": "/WgxNyc9dXl+ZrQJDf5BXaqtMbl0CcDC5GEQITecbHZBQHApTMuxeTMMEqa0Y+PD1CIxTtbRY4jmotKS5dsLuA==",
       "type": "package",
@@ -7164,6 +7535,33 @@
         "lib/netstandard2.0/NuGet.Versioning.xml",
         "nuget.versioning.6.3.1.nupkg.sha512",
         "nuget.versioning.nuspec"
+      ]
+    },
+    "PagedList/1.17.0": {
+      "sha512": "Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
+      "type": "package",
+      "path": "pagedlist/1.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/PagedList.dll",
+        "lib/net40/PagedList.xml",
+        "pagedlist.1.17.0.nupkg.sha512",
+        "pagedlist.nuspec"
+      ]
+    },
+    "PagedList.Mvc/4.5.0": {
+      "sha512": "D0M4qW2g4a9cwG8ozIKUnJheCrm5GpFTceqUl63AXWaAVnTgk+TysZYUOGMsBRuzid8aF+/E8b0bXM6+90jiEw==",
+      "type": "package",
+      "path": "pagedlist.mvc/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Content/PagedList.css",
+        "lib/net40/PagedList.Mvc.XML",
+        "lib/net40/PagedList.Mvc.dll",
+        "pagedlist.mvc.4.5.0.nupkg.sha512",
+        "pagedlist.mvc.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -11363,30 +11761,32 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Microsoft.AspNet.WebApi.HelpPage >= 5.2.9",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.9",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.8"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.8",
+      "PagedList.Mvc >= 4.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\yazhi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Repos\\traveldate_mvc_core\\mvc_core_for_traveldate\\prjTravelDate_core\\prjTravelDate_core.csproj",
+      "projectUniqueName": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\prjTravelDate_core.csproj",
       "projectName": "prjTravelDate_core",
-      "projectPath": "C:\\Users\\User\\Desktop\\Repos\\traveldate_mvc_core\\mvc_core_for_traveldate\\prjTravelDate_core\\prjTravelDate_core.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Repos\\traveldate_mvc_core\\mvc_core_for_traveldate\\prjTravelDate_core\\obj\\",
+      "projectPath": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\prjTravelDate_core.csproj",
+      "packagesPath": "C:\\Users\\yazhi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core\\slnTravelDate_core\\prjTravelDate_core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yazhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11415,6 +11815,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.AspNet.WebApi.HelpPage": {
+            "target": "Package",
+            "version": "[5.2.9, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.9, )"
@@ -11432,6 +11836,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.8, )"
+          },
+          "PagedList.Mvc": {
+            "target": "Package",
+            "version": "[4.5.0, )"
           }
         },
         "imports": [
@@ -11456,5 +11864,87 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net7.0' 還原了套件 'Microsoft.AspNet.Mvc 5.2.9'。此套件與您的專案並非完全相容。",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net7.0' 還原了套件 'Microsoft.AspNet.Razor 3.2.9'。此套件與您的專案並非完全相容。",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net7.0' 還原了套件 'Microsoft.AspNet.WebApi.Core 5.2.9'。此套件與您的專案並非完全相容。",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net7.0' 還原了套件 'Microsoft.AspNet.WebApi.WebHost 5.2.9'。此套件與您的專案並非完全相容。",
+      "libraryId": "Microsoft.AspNet.WebApi.WebHost",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net7.0' 還原了套件 'Microsoft.AspNet.WebPages 3.2.9'。此套件與您的專案並非完全相容。",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net7.0' 還原了套件 'Microsoft.Web.Infrastructure 1.0.0'。此套件與您的專案並非完全相容。",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net7.0' 還原了套件 'PagedList 1.17.0'。此套件與您的專案並非完全相容。",
+      "libraryId": "PagedList",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 而非專案目標架構 'net7.0' 還原了套件 'PagedList.Mvc 4.5.0'。此套件與您的專案並非完全相容。",
+      "libraryId": "PagedList.Mvc",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

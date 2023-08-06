@@ -39,7 +39,8 @@
 			}
 
 			// var color = o[passed_month];
-			calendar.calHeader.find("h2").text(i[passed_month]+" "+passed_year);
+			calendar.calHeader.find(".year").text(passed_year );
+			calendar.calHeader.find(".month").text(i[passed_month]);
 						//.css("background-color",color)
 						//.find("h2").text(i[passed_month]+" "+year);
 
@@ -59,6 +60,7 @@
 				// Understading which element was clicked;
 				// var parentClass = $(this).parent().parent().attr('class');
 				if (firstClick && secondClick) {
+					
 					thirdClicked = getClickedInfo(clicked, calendar);
 					var firstClickDateObj = new Date(firstClicked.year, 
 												firstClicked.month, 
@@ -142,7 +144,7 @@
 			if (!$.isEmptyObject(selected)) {
 				var dateElements1 = datesBody1.find('div');
 				var dateElements2 = datesBody2.find('div');
-
+				//修改處
 				function highlightDates(passed_year, passed_month, dateElements){
 					if (passed_year in selected && passed_month in selected[passed_year]) {
 						var daysToCompare = selected[passed_year][passed_month];
@@ -152,12 +154,12 @@
 								if (parseInt($(this).text()) == daysToCompare[d]) {
 									$(this).addClass('selected');
 								}
-							});	
+							});
 						}
-						
+
 					}
 				}
-
+				
 				highlightDates(year, month, dateElements1);
 				highlightDates(nextYear, nextMonth, dateElements2);
 			}
@@ -224,9 +226,9 @@
 		//var t=2013;
 		//var n=9;
 		var r = [];
-		var i = ["January","February","March","April","May",
-				"June","July","August","September","October",
-				"November","December"];
+		var i = ["1","2","3","4","5",
+				"6","7","8","9","10",
+				"11","12"];
 		var daysArray = ["Sunday","Monday","Tuesday",
 						"Wednesday","Thursday","Friday","Saturday"];
 		var o = ["#16a085","#1abc9c","#c0392b","#27ae60",
@@ -301,11 +303,23 @@
 			//console.log(element.parent().parent().attr('class'));
 			clickedMonth = clickedCalendar == "first" ? month : nextMonth;
 			clickedYear = clickedCalendar == "first" ? year : nextYear;
-			clickedInfo = {"calNum": clickedCalendar,
-							"date": parseInt(element.text()),
-							"month": clickedMonth,
-							"year": clickedYear}
-			//console.log(clickedInfo);
+			clickedInfo = {
+				"calNum": clickedCalendar,
+					"date": parseInt(element.text()),
+					"month": clickedMonth,
+					"year": clickedYear
+				
+			}
+			//修改306行,原本沒有"startDate": {}及313行,原本沒有f (secondClick) {clickedInfo.endDate = {"date": secondClicked.date,"month": secondClicked.month,"year": secondClicked.year};}
+			//if (secondClick) {
+			//	clickedInfo.endDate = {
+			//		"date": secondClicked.date,
+			//		"month": secondClicked.month,
+			//		"year": secondClicked.year
+			//	};
+			//}
+			console.log(clickedInfo);
+		
 			return clickedInfo;
 		}
 
@@ -389,6 +403,8 @@
 					selected[added_year][added_month].push(i);
 				}
 			}
+
+			
 			return selected;
 		}
 });

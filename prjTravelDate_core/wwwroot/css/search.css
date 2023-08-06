@@ -1,4 +1,5 @@
-﻿body {
+﻿/****************************************共同區********************************************/
+body {
     background-color: #DCE5E2;
     /*background-color: #fff;*/
 }
@@ -12,22 +13,6 @@
     /*background-color: #DCE5E2;*/
 }
 
-.selected-block {
-    background-color: #fff;
-}
-
-.controls-display-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.category-click {
-    padding: 0 0 10px 15px;
-}
-
-
-
 #arrow_bottom_down,
 .checkbox,
 .calendar-container,
@@ -38,48 +23,27 @@
     display: none;
 }
 
-.my-calendar:hover .calendar-container {
-    display: block;
-    z-index: 100;
-    width: 580px;
-    height: 200px;
+.search_container:hover .search-icon-static,
+.my-calendar:hover .calendar-static,
+.write-conatiner:hover .write-icon-static,
+.insert-photo-container:hover .insert-photo-static {
+    display: none;
 }
 
-.search_container {
-    padding: 5px;
-    margin: 5px 10px 5px 10px;
-    align-items: center;
-    border: 1px #D0D0D0 solid;
-    border-radius: 5px;
-    width: 90%;
-    background-color: #fff;
+.search_container:hover .search-icon-gif,
+.my-calendar:hover .calendar-gif,
+.write-conatiner:hover .write-icon-gif,
+.insert-photo-container:hover .insert-photo-gif {
+    display: inline-block;
+}
+/*文字顏色,背景顏色*/
+.my-text-primary {
+    color: #00000098;
 }
 
-    .search_container:hover .search-icon-static,
-    .my-calendar:hover .calendar-static,
-    .write-conatiner:hover .write-icon-static,
-    .insert-photo-container:hover .insert-photo-static {
-        display: none;
-    }
-
-    .search_container:hover .search-icon-gif,
-    .my-calendar:hover .calendar-gif,
-    .write-conatiner:hover .write-icon-gif,
-    .insert-photo-container:hover .insert-photo-gif {
-        display: inline-block;
-    }
-
-.search-input {
-    border: none;
-    outline: none;
-    width: 100%;
+.my-text-secondary {
+    color: #88A8BC;
 }
-
-.my-w50-h50 {
-    width: 50px;
-    height: 50px;
-}
-
 .my-bg-primary {
     background-color: #004B97;
 }
@@ -88,8 +52,8 @@
     background-color: #88A8BC;
 }
 
-.my-img-circle {
-    border-radius: 50%;
+.category-click > span {
+    width: 80%;
 }
 
 .divide-line {
@@ -97,6 +61,7 @@
     border-bottom: 1px solid #dee1d9;
     padding: 5px 0 5px 0;
 }
+
 
 .my-w-80-percent {
     width: 80%;
@@ -118,27 +83,6 @@
         .sort > a:hover {
             color: #185ab6;
         }
-
-/*文字顏色,背景顏色*/
-.my-text-primary {
-    color: #00000098;
-}
-
-.my-text-secondary {
-    color: #88A8BC;
-}
-
-.calendar-container {
-    position: absolute;
-    z-index: 1;
-}
-
-
-.calendar_header {
-    background-color: #155074;
-    color: #FDFDF6;
-}
-
 .uncheckbox,
 .checkbox,
 input,
@@ -149,26 +93,137 @@ input,
 .insert-photo-container {
     cursor: pointer;
 }
+/*********************************************************************************************/
 
-.card-body {
-    height: 230px;
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************Search區**************************************************************************/
+.selected-block {
+    background-color: #fff;
 }
 
-.my-card-img {
-    height: 230px;
+.controls-display-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.category-click > span {
-    width: 80%;
+.category-click {
+    padding: 0 0 10px 15px;
+}
+.my-calendar:hover .calendar-container {
+    display: block;
+    z-index: 100;
+    width: 620px;
+    height: 200px;
 }
 
-.container > main > img {
+.search_container {
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+    align-items: center;
+    border: 1px #D0D0D0 solid;
+    border-radius: 5px;
+    width: 90%;
+    background-color: #fff;
+}
+.search-input {
+    border: none;
+    outline: none;
     width: 100%;
 }
 
+.my-w50-h50 {
+    width: 50px;
+    height: 50px;
+}
+
+.calendar-container {
+    position: absolute;
+    z-index: 1;
+}
+.calendar_header {
+    background-color: #155074;
+}
+.calendar_header>h2 {
+    color:aliceblue;
+}
+/************card區*************/
 .card {
     border-radius: 10px;
 }
-.content-input {
-    height:400px !important;
+.card-body {
+    height: 200px;
 }
+
+.my-card-img {
+    height: 200px;
+}
+.card-text{
+    margin-bottom:0;
+}
+/*******************************/
+
+/***********星星區**************/
+.star-rating-container {
+    width: 50px; /* 調整容器的寬度 */
+    height: 10px; /* 調整容器的高度 */
+    overflow: hidden;
+   
+}
+
+.star-rating-div {
+    width: 0;
+    height: 10px;
+    background-color: #44dbe6; /* 設定矩形的初始背景顏色 */
+}
+
+.star-rating {
+    position: absolute; /* 將.star-rating設置為相對定位 */
+    top: 6px;
+    width: 50px; /* 調整容器的寬度 */
+}
+/*******************************/
+
+/*********************************************************************************************************************************************/
+
+
+
+
+/******************************************************揪團討論區**************************************************************************/
+.content-input {
+    height: 400px !important;
+}
+.my-img-circle {
+    border-radius: 50%;
+}
+.container > main > img {
+    width: 100%;
+}
+/**************************************************************************************************************************************/

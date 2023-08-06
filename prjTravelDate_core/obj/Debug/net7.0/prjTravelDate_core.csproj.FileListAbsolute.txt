@@ -506,3 +506,16 @@ C:\Users\User\Desktop\Repos\traveldate_mvc_core\mvc_core_for_traveldate\prjTrave
 C:\Users\User\Desktop\Repos\traveldate_mvc_core\mvc_core_for_traveldate\prjTravelDate_core\obj\Debug\net7.0\prjTravelDate_core.pdb
 C:\Users\User\Desktop\Repos\traveldate_mvc_core\mvc_core_for_traveldate\prjTravelDate_core\obj\Debug\net7.0\prjTravelDate_core.genruntimeconfig.cache
 C:\Users\User\Desktop\Repos\traveldate_mvc_core\mvc_core_for_traveldate\prjTravelDate_core\obj\Debug\net7.0\ref\prjTravelDate_core.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Web.Mvc.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Web.Razor.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Web.Http.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Web.Http.WebHost.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Web.Helpers.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\System.Web.WebPages.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\PagedList.dll
+C:\Users\yazhi\Desktop\repos\mvc_core\slnTravelDate_core\prjTravelDate_core\bin\Debug\net7.0\PagedList.Mvc.dll

@@ -1,5 +1,6 @@
 ﻿using prjTravelDate_core.Models;
-
+using PagedList.Mvc;
+using PagedList;
 namespace prjTravelDate_core.ViewModels
 {
     public class CSearchListViewModel
@@ -9,5 +10,6 @@ namespace prjTravelDate_core.ViewModels
         public List<CCountryAndCity> countryAndCities { get; set; } = new List<CCountryAndCity>();
         //public List<string> fTags { get; set; } = new List<string>();
         public List<string> types { get; set; } = new List<string>();
+        public IPagedList<CFilteredProductItem> pages { get; set; } 
     }
 }

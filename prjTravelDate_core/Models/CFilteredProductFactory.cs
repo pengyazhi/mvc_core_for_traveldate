@@ -102,13 +102,21 @@ namespace prjTravelDate_core.Models
                 .Select(g => new
                 {
                     country = g.Key,
-                    city = g.Select(c => c.City.City)
-                });
+                    citys = g.Select(c => c.City.City).Distinct()
+                }) ;
+
             foreach (var c in data_region)
             {
                 CCountryAndCity x = new CCountryAndCity();
                 x.country = c.country;
-                x.citys = c.city;
+                x.citys = c.citys.Select(city =>
+                {
+                    if (city.Trim().Substring(city.Length - 1, 1) == "縣" || city.Trim().Substring(city.Length - 1, 1) == "市")
+                    {
+                        return city.Substring(0, city.Length - 1);
+                    }
+                    return city;
+                }).ToList();
                 list.Add(x);
             }
             return list;
