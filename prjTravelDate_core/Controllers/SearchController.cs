@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using prjTravelDate_core.Models;
 using prjTravelDate_core.ViewModels;
-using PagedList.Mvc;
-using PagedList;
+
+using X.PagedList;
 
 namespace prjTravelDate_core.Controllers
 {
@@ -12,8 +12,7 @@ namespace prjTravelDate_core.Controllers
         {
             CFilteredProductFactory products = new CFilteredProductFactory();
             CSearchListViewModel vm = new CSearchListViewModel();
-            
-            vm.filterProducts = products.qureyFilterProductsInfo();//商品cards;
+            vm.filterProducts = products.qureyFilterProductsInfo().ToList();//商品cards;
             if (!string.IsNullOrEmpty(keyword.txtKeyword))
             {
                 vm.filterProducts = products.qureyFilterProductsInfo().Where(p => p.productName.Contains(keyword.txtKeyword)).ToList();
@@ -22,10 +21,10 @@ namespace prjTravelDate_core.Controllers
             vm.countryAndCities = products.qureyFilterCountry();  //商品國家&縣市,左邊篩選列
             vm.types = products.qureyFilterTypes();//商品類型,左邊篩選列
 
-            int pageSize = 10;
+            int pageSize = 5;
             int pageNumber = page ?? 1;
-            vm.pages = vm.filterProducts.ToPagedList(pageNumber, pageSize);
-
+            //vm.pages = new PagedList<CFilteredProductItem>(vm.filterProducts, pageNumber, pageSize);
+            vm.pages = new StaticPagedList<CFilteredProductItem>(vm.filterProducts, pageNumber, pageSize, vm.filterProducts.Count);
             return View(vm);
         }
     }

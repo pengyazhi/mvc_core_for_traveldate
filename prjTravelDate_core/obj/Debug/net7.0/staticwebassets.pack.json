@@ -301,6 +301,10 @@
       "PackagePath": "staticwebassets\\icon\\icons8-eye-24.png"
     },
     {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core_new\\mvc_core_for_traveldate\\prjTravelDate_core\\wwwroot\\icon\\icons8-group-64.png",
+      "PackagePath": "staticwebassets\\icon\\icons8-group-64.png"
+    },
+    {
       "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core_new\\mvc_core_for_traveldate\\prjTravelDate_core\\wwwroot\\icon\\icons8-like-24.png",
       "PackagePath": "staticwebassets\\icon\\icons8-like-24.png"
     },
@@ -381,8 +385,24 @@
       "PackagePath": "staticwebassets\\images\\top_photo_02.jpg"
     },
     {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core_new\\mvc_core_for_traveldate\\prjTravelDate_core\\wwwroot\\images\\東清秘境-蘭嶼.png",
+      "PackagePath": "staticwebassets\\images\\東清秘境-蘭嶼.png"
+    },
+    {
       "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core_new\\mvc_core_for_traveldate\\prjTravelDate_core\\wwwroot\\images\\蘭嶼.jpg",
       "PackagePath": "staticwebassets\\images\\蘭嶼.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core_new\\mvc_core_for_traveldate\\prjTravelDate_core\\wwwroot\\images\\蘭嶼情人洞.jpg",
+      "PackagePath": "staticwebassets\\images\\蘭嶼情人洞.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core_new\\mvc_core_for_traveldate\\prjTravelDate_core\\wwwroot\\images\\蘭嶼舊燈塔.jpg",
+      "PackagePath": "staticwebassets\\images\\蘭嶼舊燈塔.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core_new\\mvc_core_for_traveldate\\prjTravelDate_core\\wwwroot\\images\\蘭嶼遊.png",
+      "PackagePath": "staticwebassets\\images\\蘭嶼遊.png"
     },
     {
       "Id": "C:\\Users\\yazhi\\Desktop\\repos\\mvc_core_new\\mvc_core_for_traveldate\\prjTravelDate_core\\wwwroot\\js\\bootstrap.bundle.js",

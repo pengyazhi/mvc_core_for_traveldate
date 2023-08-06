@@ -1,7 +1,6 @@
-﻿
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
 @using prjTravelDate_core.ViewModels
-@using PagedList.Mvc;
-
 @model CSearchListViewModel
 @{
     ViewData["Title"] = "SearchList";
@@ -174,7 +173,7 @@
                         <a href="#" class=" fw-bolder">價格排序(低到高)</a>
                     </div>
                 </div>
-                @foreach (var item in Model.filterProducts)
+                @foreach (var item in Model.pages)
                 {
                     <input type="hidden" value="@Html.DisplayFor(modelItem => item.productTags)" />
 
@@ -222,11 +221,7 @@
                 }
             <div class="d-flex justify-content-center bg-transparent border-0">
                 <div class="col-7 d-flex justify-content-around">
-                    @for (int i = 1; i < 7; i++)
-                    {
-                        @*<input class="page-itme my-bg-secondary text-white rounded border border-secondary-subtle" type="button" value="@i " />*@
-                        <button type="button" class="btn btn-outline-secondary"> @i </button>
-                    }
+                    @Html.PagedListPager(Model.pages, page => Url.Action("SearchList", new { page }))
                 </div>
             </div>
             </div>

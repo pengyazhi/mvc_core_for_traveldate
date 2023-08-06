@@ -594,8 +594,6 @@ C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\NuGet.ProjectModel.dll
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\NuGet.Protocol.dll
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\NuGet.Versioning.dll
-C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\PagedList.dll
-C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\PagedList.Mvc.dll
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\System.Composition.AttributedModel.dll
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\System.Composition.Convention.dll
@@ -786,3 +784,7 @@ C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\obj\Debug\net7.0\prjTravelDate_core.pdb
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\obj\Debug\net7.0\prjTravelDate_core.genruntimeconfig.cache
 C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\obj\Debug\net7.0\ref\prjTravelDate_core.dll
+C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\obj\Debug\net7.0\prjTravelDate_core.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\X.PagedList.dll
+C:\Users\yazhi\Desktop\repos\mvc_core_new\mvc_core_for_traveldate\prjTravelDate_core\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
